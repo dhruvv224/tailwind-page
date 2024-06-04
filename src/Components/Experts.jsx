@@ -15,6 +15,7 @@ export const Experts = () => {
         </p>
         <button className='bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
       </div>
+      <div></div>
     </div>
   </div>
   )
