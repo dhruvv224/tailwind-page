@@ -6,7 +6,7 @@ import {
   FaInstagram,
   FaTwitterSquare,
 } from 'react-icons/fa';
-
+import { useState } from 'react';
 const Footer = () => {
   return (
     <div className='bg-black'>
