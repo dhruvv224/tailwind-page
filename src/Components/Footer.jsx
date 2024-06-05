@@ -60,6 +60,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      created by dhruv parmar
     </div>
   );
 };
