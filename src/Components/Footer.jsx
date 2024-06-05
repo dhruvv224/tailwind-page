@@ -34,7 +34,7 @@ const Footer = () => {
           <div className='w-full md:w-1/2 lg:w-1/4'>
             <h6 className='font-bold'>Support</h6>
             <ul>
-              <li className='py-2'>Pricingd</li>
+              <li className='py-2'>Pricing</li>
               <li className='py-2'>Documentation</li>
               <li className='py-2'>Guides</li>
               <li className='py-2'>API Status</li>
