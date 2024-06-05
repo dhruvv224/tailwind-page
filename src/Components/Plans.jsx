@@ -6,7 +6,7 @@ export const Plans = () => {
   return (
     <div className='py-[10rem] px-2 w-full bg-white'>
         <div className='max-w-[1240px] md:grid grid-cols-3 mx-auto gap-8'>
-            <div className='shadow-xl h-[500px] my-2 hover:scale-105 duration-500 rounded-lg md:px-3 md:py-3'>
+            <div className='shadow-xl h-[500px] my-2 hover:scale-105 duration-500 rounded-lg md:px-3 md:py-3 text-center'>
               <img src={single} alt='' className='w-20 mx-auto mt-[-3] bg-white'></img>
               <h2 className='text-3xl font-bold text-center py-5'>Web Development</h2>
               <p className='text-center text-3xl font-bold text-center'>149₹</p>
@@ -15,9 +15,10 @@ export const Plans = () => {
 <p className='py-2 border-b mx-8'> Planning and Design</p>
 <p className='py-2 border-b mx-8'> Development and Coding</p>
 <p className='py-2 border-b mx-8'> Testing, Deployment, and Launch</p>
-<button className='bg-[#00df9a] text-black w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 transition hover:bg-[#0bd495]  duration-300 ease-in-out '>Start Trial</button>
 
               </div>
+              <button className='bg-[#00df9a] text-black w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 transition hover:bg-[#0bd495]  duration-300 ease-in-out '>Start Trial</button>
+
 
             </div>
             <div className='shadow-xl h-[500px] my-2 hover:scale-105 bg-gray-100 text-center duration-500 rounded-lg md:px-3 md:py-3'>
