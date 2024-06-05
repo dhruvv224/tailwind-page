@@ -6,7 +6,7 @@ export const Plans = () => {
   return (
     <div className='py-[10rem] px-2 w-full bg-white'>
         <div className='max-w-[1240px] md:grid grid-cols-3 mx-auto gap-8'>
-            <div className='shadow-xl h-[500px] my-2 hover:scale-105 duration-500 rounded-lg'>
+            <div className='shadow-xl h-[500px] my-2 hover:scale-105 duration-500 rounded-lg md:px-3 md:py-3'>
               <img src={single} alt='' className='w-20 mx-auto mt-[-3] bg-white'></img>
               <h2 className='text-3xl font-bold text-center py-5'>Web Development</h2>
               <p className='text-center text-3xl font-bold text-center'>149₹</p>
@@ -20,7 +20,7 @@ export const Plans = () => {
               </div>
 
             </div>
-            <div className='shadow-xl h-[500px] my-2 hover:scale-105 bg-gray-100 text-center duration-500 rounded-lg'>
+            <div className='shadow-xl h-[500px] my-2 hover:scale-105 bg-gray-100 text-center duration-500 rounded-lg md:px-3 md:py-3'>
             <img src={double} alt='' className='w-20 mx-auto mt-3 bg-transparent'></img>
             <h2 className='text-3xl font-bold text-center py-5'>Digital Marketing</h2>
             <p className='text-center text-3xl font-bold text-center'>249₹</p>
@@ -34,7 +34,7 @@ export const Plans = () => {
 
 
             </div>
-            <div className='shadow-xl h-[500px]  my-2 hover:scale-105 duration-500 rounded-lg text-center'>
+            <div className='shadow-xl h-[500px]  my-2 hover:scale-105 duration-500 rounded-lg text-center md:px-3 md:py-3'>
             <img src={triple} alt='' className='w-20 mx-auto mt-3 bg-transparent'></img>
             <h2 className='text-3xl font-bold text-center py-5'>App Development</h2>
             <p className='text-center text-3xl font-bold text-center'>149₹</p>

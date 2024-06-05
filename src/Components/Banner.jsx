@@ -5,11 +5,11 @@ export const Banner = () => {
   return (
     <div className='bg-[#2699fb] py-[100px] text-center'>
         <div className='max-w-[1240px]  my-[100px] mx-auto text-center'>
-            <div className='text-[45px]'>
+            <div className='md:text-[45px] text-[40px]'>
                 <h4 className='font-bold'>Learn With Us</h4>
             </div>
-            <h2 className='text-white text-[75px] font-bold'>Grow With Us</h2>
-            <div className='text-white text-[50px] font-bold'>
+            <h2 className='text-white md:text-[75px] text-[55px] font-bold'>Grow With Us</h2>
+            <div className='text-white md:text-[50px] text-[35px] font-bold'>
             Learn  
                 <ReactTyped className='pl-3' strings={['Web Development', 'Digital Marketing', 'Ethical Hacking', 'Front-End Courses']} typeSpeed={100} backSpeed={60} loop/>
 
