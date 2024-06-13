@@ -11,7 +11,7 @@ function App() {
    <>
     <Header/>
     <Banner/>
-    <Experts/>
+    {/* <Experts/> */}
     <Newsletter/>
     <Plans/>
     <Footer/>
